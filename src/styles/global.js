@@ -8,8 +8,13 @@ export const GlobalStyle = createGlobalStyle`
     outline: 0;
     list-style: none;
     font-family: 'Roboto Mono', monospace;
+
 }
 
+body{
+   background: #262626;
+
+}
 button{
    cursor:pointer;
 }
