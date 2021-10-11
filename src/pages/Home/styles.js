@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 export const Beers = styled.div`
-    width: 100vw;
-    box-sizing: border-box;
+    background: #262626;
 `
 export const Content = styled.div`
         width: 100%;

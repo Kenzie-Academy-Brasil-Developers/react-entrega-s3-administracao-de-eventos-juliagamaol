@@ -1,11 +1,15 @@
 import styled from "styled-components";
 
 export const Card = styled.div`    
+    @media (max-width:394px){
+
+    }
     @media (min-width:769px){
         
-        height: 50vh;
-        width: 15%;
+        height: 60vh;
+        width: 20%;
     }
+    background: #fff;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 5px;
@@ -31,20 +35,10 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    figure{
-       width: 100%;
-       height: 50%;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       margin-top: 10px;
-       padding: 10px;
-    }
 
     img{
-        width: 20%;
-        height: 100%;
+        width: auto;
+        height: 5.25rem;
     }
 
     .info{
@@ -53,8 +47,11 @@ export const Container = styled.div`
         justify-content: space-between;
     }
     
-    button {
-        
+    .btns{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
     }
   
 `

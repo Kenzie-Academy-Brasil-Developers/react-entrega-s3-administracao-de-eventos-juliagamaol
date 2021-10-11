@@ -2,14 +2,14 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     width: 100%;
-    background-color: #21262B;
+    background-color: #262626;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
     height: 13vh;
     z-index: 7;
-    
+    overflow: hidden;
+
 `
 export const Nav = styled.nav`
     width: 100%;
